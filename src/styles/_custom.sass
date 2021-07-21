@@ -1,0 +1,178 @@
+.bg-primario
+  background-color: #17C878
+.bg-secundario
+  background-color: #E2F6C6
+.bg-acento-botones
+  background-color: #FB9E36
+.bg-verde2
+  background-color:#F1F5EC
+.bg-acento-contenido
+  background-color: #F1D54E  
+.color-gradiente
+  background: rgb(21,165,100)
+  background: linear-gradient(0deg, rgba(21,165,100,1) 0%, rgba(23,200,120,1) 100%)
+
+.bloque-texto-a.color-primario2
+  background-color: #17C878
+.bloque-texto-a.color-primario2:before
+  background-color: #F1F5EC
+
+.tabla-a thead
+  background-color: #E2F6C6
+.pdf-tabla img
+  width: 35px
+  margin: 0 auto
+.tabla-a .nombre
+  width: 30%
+.tabla-a .tema
+  width: 55%
+
+.bloque-texto-b.bloq2:before
+  top: 74%
+  bottom: -8%
+  left: 21%
+  right: 11%
+
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto
+  font-weight: bold 
+
+.lista-ul--color.color-naranja li > i:first-of-type
+  color: #FB9E36
+
+.tabs-c__tab--active span
+  font-weight: bold
+
+.cajon.color-primario
+  background-color: #EAF7D7
+
+.pasos-custom .pasos-a__linea__esquina__linea
+  border-radius: 0px
+.pasos-custom .pasos-a__circle
+  width: 65px
+  height: 65px
+.pasos-custom .h2 
+  font-size: 1.7em
+
+.tabs-custom .tabs-b__tab__icon img
+  width: 50px
+  height: 50px
+.tabs-custom .tabs-b__tab__icon  
+  filter: grayscale(1)
+.tabs-custom .tabs-b__tab--active .tabs-b__tab__icon
+  filter: grayscale(0)
+.tabs-custom .tabs-b__tab
+  border-bottom: 0px solid #F6F6F6
+
+figcaption
+  font-weight: 500
+
+.iconos-tabs-internos
+  margin: 0px 15px
+.iconos-tabs-internos img
+  width: 75px
+  height: 75px
+  padding-bottom: 10px
+  margin: 0 auto
+
+.linea-custom .linea-tiempo-d__item--selected .tarjeta--gris
+  background-color: #17C878
+.linea-custom .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  display: none
+.linea-tiempo-d__item__number
+  font-size: 1.3rem
+.linea-custom .tarjeta--gris  
+  background-color: #E2F6C6
+.linea-custom .linea-tiempo-d__item__dots:after
+  border-left: 5px dotted #FB9E36
+
+.tabs-a__tab 
+  background-color: #F1D54E 
+
+.img-compostaje
+  width: 190px
+
+.slider-tarjetas .tarjeta.tarjeta--blanca
+  transform: scale(1)
+.slider-tarjetas .tarjeta.tarjeta--verde
+  background-color: #E2F6C6
+  transform: scale(0.9)
+  display: flex
+.slider-tarjetas img
+  width: 70px
+  margin: 0 auto
+
+.slyder-a__bullets__item--active
+  background-color: #17C878 !important
+  border-color: #17C878
+.slyder-a__bullets__item
+  background-color: #E8E8E8
+  width: 20px
+  height: 20px
+.slyder-a__bullets
+  bottom: -35px
+
+.numero-color h2 
+  background-color: #FB9E36
+  width: 75px
+  height: 75px
+  border-radius: 50%
+  display: flex
+  flex-direction: column
+  justify-content: center
+  font-size: 1.7rem
+
+.bg-image-1
+  background-image: url('../assets/curso/tema5-1-bg1.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  height: 242px
+.bg-image-2
+  background-image: url('../assets/curso/tema5-1-bg2.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  height: 242px
+  p.texto-largo
+    font-size: 0.8em
+.bg-image-3
+  background-image: url('../assets/curso/tema5-1-bg3.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  height: 242px    
+.bg-image-final
+  background-image: url('../assets/curso/tema5-1-bg-final.svg')
+  background-size: cover
+  background-repeat: no-repeat
+  height: 193px
+
+
+@media (max-width: $bp-max-md)
+  .col-lg-6.tarjeta 
+    width: 47%
+  .slider-tarjetas .tarjeta.tarjeta--verde
+    display: none !important
+  .bg-image-1, .bg-image-3, .bg-image-final
+    height: 320px
+    background-color: #E2F6C6
+    background-image: none
+    border-radius: 20px
+    padding: 30px 10px
+    margin-bottom: 15px
+  .bg-image-2
+    height: 320px
+    background-color: #FFEFA2
+    background-image: none
+    border-radius: 20px
+    padding: 30px 10px
+    margin-bottom: 15px
+@media (min-width: $bp-max-xl)
+  .bg-image-1
+    height: 283px
+  .bg-image-2
+    height: 283px
+    p.texto-largo
+      font-size: 1em
+  .bg-image-3
+    height: 283px
+  .bg-image-final
+    height: 225px    

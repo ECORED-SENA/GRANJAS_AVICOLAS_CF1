@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Plan de manejo ambiental, monitoreo y valoración',
     descripcionCurso:
       'El sector avícola colombiano ha venido trabajando desde hace más de 20 años para mejorar el plan de manejo ambiental, así como, las producciones respecto a prácticas, instalaciones, protocolos, equipos e indumentaria para reducir y mitigar su impacto. Es así como, desde las perspectivas normativas se han implementado las siguientes políticas: bioseguridad, buenas prácticas y producciones limpias, entre otros.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {
