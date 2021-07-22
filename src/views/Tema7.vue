@@ -41,28 +41,29 @@
       .h2 7.1. Medidas de prevención, mitigación, control y compensación
 
     p.mb-4(data-aos="fade") Las medidas de mitigación ambiental tienen por finalidad evitar o disminuir los efectos adversos de un proyecto o actividad, cualquiera sea su fase de ejecución. Estas se expresarán en un plan, el cual deberá considerar, por lo menos, una de las siguientes medidas:
-
-    PasosA.color-primario.pasos-custom(tipo="n")
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p
-            strong.etiqueta Las que impidan o eviten completamente el efecto adverso significativo, 
-            | mediante la no ejecución de una obra o acción, o de alguna de sus partes.
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p
-            strong.etiqueta Las que minimizan o disminuyen el efecto adverso significativo,
-            | mediante una adecuada limitación o reducción de la magnitud o duración de la obra o acción, o de alguna de sus partes, o a través de la implementación de medidas específicas.
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p
-            strong.etiqueta Las medidas de reparación y/o restauración 
-            | tienen por finalidad reponer uno o más de los componentes o elementos del medio ambiente a una calidad similar a la que tenían con anterioridad al daño causado o, en caso de no ser ello posible, restablecer sus propiedades básicas. Dichas medidas se expresarán en un Plan de Medidas de Reparación y/o Restauración.
-      .row
-        .col-md-11.mb-5.mb-md-0
-          p
-            strong.etiqueta Las medidas de compensación ambiental 
-            | tienen por finalidad producir o generar un efecto positivo alternativo y equivalente a un efecto adverso identificado. Dichas medidas se expresarán en un Plan de Medidas de Compensación, el que incluirá el reemplazo o sustitución de los recursos naturales o elementos del medio ambiente afectados, por otros de similares características, clase, naturaleza y calidad.
+    .row.justify-content-center
+      .col-lg-10
+        PasosA.color-primario.pasos-custom(tipo="n")
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p
+                strong.etiqueta Las que impidan o eviten completamente el efecto adverso significativo, 
+                | mediante la no ejecución de una obra o acción, o de alguna de sus partes.
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p
+                strong.etiqueta Las que minimizan o disminuyen el efecto adverso significativo,
+                | mediante una adecuada limitación o reducción de la magnitud o duración de la obra o acción, o de alguna de sus partes, o a través de la implementación de medidas específicas.
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p
+                strong.etiqueta Las medidas de reparación y/o restauración 
+                | tienen por finalidad reponer uno o más de los componentes o elementos del medio ambiente a una calidad similar a la que tenían con anterioridad al daño causado o, en caso de no ser ello posible, restablecer sus propiedades básicas. Dichas medidas se expresarán en un Plan de Medidas de Reparación y/o Restauración.
+          .row
+            .col-md-11.mb-5.mb-md-0
+              p
+                strong.etiqueta Las medidas de compensación ambiental 
+                | tienen por finalidad producir o generar un efecto positivo alternativo y equivalente a un efecto adverso identificado. Dichas medidas se expresarán en un Plan de Medidas de Compensación, el que incluirá el reemplazo o sustitución de los recursos naturales o elementos del medio ambiente afectados, por otros de similares características, clase, naturaleza y calidad.
 
     p(data-aos="fade") Las dos últimas, sólo se llevarán a cabo en las áreas o lugares en que se presenten efectos adversos significativos que resulten de la ejecución o modificación de los planes de mitigación ambientales originales.
 
@@ -520,7 +521,40 @@
     p(data-aos="fade") El autodiagnóstico se practica en lugares aledaños como casas vecinas o puntos ubicados alrededor de la producción, los cuales han sido escogidos previamente. La recomendación es que se realice con regularidad sobre todo cuando el viento se dirige en dirección a los puntos seleccionados, con el fin de que se obtenga una mejor concentración de olores ofensivos provenientes de la producción.  Esta actividad puede medir el impacto de actividades como la remoción de camas o el paleo de pilas de compost, las cuales pueden causar altos picos de emisión de olores.
     p.mb-4(data-aos="fade") Para guiar el autodiagnóstico el operario debe hacer las siguientes preguntas:
 
-
+    .slide-bg.mb-5
+      .row.justify-content-center
+        .col-lg-8
+          .wrap-content.p-5
+            .boxt-title.text-center
+              .h2 Sector Avícola Colombiano
+              p.mb-3 Buenas prácticas
+              p <b>Objetivo:</b> Identificar malas prácticas en el manejo de olores en las empresas del sector...
+            SlyderA
+              .row.justify-content-center
+                .col-lg-10
+                  .wrap.color-primario 
+                    p ¿En qué medida aumenta la emisión de olores cuando se realizan operaciones críticas como las ya mencionadas?
+              .row.justify-content-center
+                .col-lg-10
+                  .wrap.color-primario
+                    p ¿Aumenta la recepción de quejas en esas ocasiones?
+              .row.justify-content-center
+                .col-lg-10
+                  .wrap.color-primario
+                    p ¿Existen pilas de materia orgánica?
+              .row.justify-content-center
+                .col-lg-10
+                  .wrap.color-primario
+                    p ¿En qué condiciones está almacenada?
+              .row.justify-content-center
+                .col-lg-10
+                  .wrap.color-primario
+                    p ¿Está cubierta? 
+              .row.justify-content-center
+                .col-lg-10
+                  .wrap.color-primario
+                    p ¿Dónde están ubicados los puntos de almacenamiento de materia orgánica con respecto a las casas vecinas?                 
+                                                   
 
     p.mb-5  La siguiente escala es sugerida para el registro de la emisión de olores en el autodiagnóstico:
     .row.justify-content-center.mb-5

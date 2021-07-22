@@ -101,7 +101,7 @@
                   h4.mb-1 Guía ambiental para el subsector avícola
                   p.mb-0.text-small Para profundizar en el aprendizaje puede revisar el siguiente documento “Guía ambiental para el subsector avícola” 
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-negro(:href="('https://www.google.com/url?q=https://fenavi.org/wp-content/uploads/2018/05/GUIA_AMBIENTAL_SUBSECTOR_AVICOLA.pdf&sa=D&source=editors&ust=1626806256163000&usg=AOvVaw3ZB_R9nrKuIidejmje-UwM')" target="_blank")
+                  a.boton.color-acento-botones.texto-negro(:href="('https://fenavi.org/wp-content/uploads/2018/05/GUIA_AMBIENTAL_SUBSECTOR_AVICOLA.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

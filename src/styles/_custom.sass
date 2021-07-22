@@ -1,6 +1,6 @@
 .tarjeta.color-primario *
   color: #12263F
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6, .titulo-principal__numero span
   color: #000940
 .banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
   color: #000940!important
@@ -19,7 +19,37 @@
 .color-gradiente
   background: rgb(21,165,100)
   background: linear-gradient(0deg, rgba(21,165,100,1) 0%, rgba(23,200,120,1) 100%)
+.slide-bg
+  background: url('../assets/curso/bg-slides-dots.svg') no-repeat bottom
+  background-size: contain
+  padding-bottom: 250px
+.slide-bg .slyder-a__bullets
+  bottom: 0px!important
+.boxt-title
+  border-bottom: 3px solid #17C878
+  margin-bottom: 15px
+.slide-bg .slyder-a__bullets__item
+  background-color: #E2F6C6
+  opacity: 1
+  border: 1px solid #17C878
+.slide-bg slyder-a__bullets__item slyder-a__bullets__item--active
 
+.wrap
+  margin-bottom: 70px
+  margin-top: 15px
+  padding: 25px
+  background-color: #17C878
+  color: #12263F
+  font-weight: 700
+  border-radius: 10px
+  text-align: center
+.wrap p
+  font-weight: 700
+.wrap-content
+  background-color: #F1F5EC
+  border: 20px solid #12263F
+  border-radius: 10px
+  
 .bloque-texto-a.color-primario2
   background-color: #17C878
 .bloque-texto-a.color-primario2:before
@@ -250,3 +280,5 @@ figcaption
     bottom: 0px
   .stage-container
     min-height: auto
+  .slide-bg
+    padding-bottom: 130px

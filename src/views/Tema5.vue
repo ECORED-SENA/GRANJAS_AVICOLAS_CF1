@@ -263,7 +263,7 @@
 
 
     // 5.1
-    #t_5_1.titulo-segundo(data-aos="fade-right")
+    #t_5_1.titulo-segundo
       .h2 5.1. Sanitización de la gallinaza o pollinaza
 
     .row.justify-content-center
@@ -283,33 +283,34 @@
           img(src="@/assets/curso/tema5-1-imagen.png", alt="Imagen decorativa")
 
     p.mb-4(data-aos="fade") En la siguiente figura se especifican los pasos a seguir para hacer una correcta sanitización de la gallinaza o pollinaza.      
-
-    PasosA.color-primario.pasos-custom.mb-4(tipo="n")
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p 
-            strong Homogenizar cama
-          p Flamear y picar para eliminar material empastado.
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p 
-            strong Humedecer la cama y hacer pilas
-          p Humedecer la cama y formar pilas, moviendo el material hacia el centro del galpón. Se debe verificar la humedad alcanzada realizando la prueba de puño (al empuñar una cantidad de material este debe ser compacto). El alto de la pila debe ser la mitad de ancho de la base y no menor a 1,50 metros. 
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p 
-            strong Cubrir con plásticos
-          p Al terminar el apilamiento de toda la cama se debe cubrir con un plástico de calibre grueso para contribuir con el aumento de la temperatura, por otro lado, a cada pila se le debe hacer un registro (llevar seguimiento y control de la temperatura), para lo cual deben identificarse independientemente a través de numeración.
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p 
-            strong Seguimiento y control de la temperatura en las pilas
-          p Diariamente se debe realizar la medición de la temperatura y llevar los registros correspondientes, cuando se alcancen los 52 - 55°C se dejan reposar las pilas durante dos días, es decir, se restringe el movimiento.
-      .row
-        .col-md-11.mb-4.mb-md-0
-          p 
-            strong Enfriamiento de retiro del material 
-          p Tras el periodo de reposo, se extienden las pilas para que se enfríen y se empacan para sacarlas del galpón.         
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        PasosA.color-primario.pasos-custom.mb-4(tipo="n")
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p 
+                strong Homogenizar cama
+              p Flamear y picar para eliminar material empastado.
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p 
+                strong Humedecer la cama y hacer pilas
+              p Humedecer la cama y formar pilas, moviendo el material hacia el centro del galpón. Se debe verificar la humedad alcanzada realizando la prueba de puño (al empuñar una cantidad de material este debe ser compacto). El alto de la pila debe ser la mitad de ancho de la base y no menor a 1,50 metros. 
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p 
+                strong Cubrir con plásticos
+              p Al terminar el apilamiento de toda la cama se debe cubrir con un plástico de calibre grueso para contribuir con el aumento de la temperatura, por otro lado, a cada pila se le debe hacer un registro (llevar seguimiento y control de la temperatura), para lo cual deben identificarse independientemente a través de numeración.
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p 
+                strong Seguimiento y control de la temperatura en las pilas
+              p Diariamente se debe realizar la medición de la temperatura y llevar los registros correspondientes, cuando se alcancen los 52 - 55°C se dejan reposar las pilas durante dos días, es decir, se restringe el movimiento.
+          .row
+            .col-md-11.mb-4.mb-md-0
+              p 
+                strong Enfriamiento de retiro del material 
+              p Tras el periodo de reposo, se extienden las pilas para que se enfríen y se empacan para sacarlas del galpón.         
 
     Separador
 
