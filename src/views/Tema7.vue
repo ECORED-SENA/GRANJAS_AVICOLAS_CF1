@@ -17,13 +17,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema7-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0
                   h4.mb-1 Política Nacional de Producción y Consumo Sostenible
                   p.mb-0.text-small Es una estrategia del estado colombiano para promover el mejoramiento ambiental, la transformación productiva y la competitividad empresarial.
                 .col-sm-auto
@@ -162,7 +162,7 @@
               img(src="@/assets/curso/tema7-2-hover1.svg", alt="residuo fresco")
               .text.p-lg-3.p-4
                 .row.px-lg-3.mb-lg-2
-                  p.text-center.text-white Si es un 
+                  p.text-center Si es un 
                     strong residuo fresco 
                     | la generación de olores puede presentarse como un problema debido a que se incrementa la actividad microbiológica y con ella la rápida descomposición en el suelo, generando sustancias fito-tóxicas que elevan los contenidos de nitratos en material vegetal y origina lixiviados.
           .col-lg-6
@@ -171,7 +171,7 @@
               img(src="@/assets/curso/tema7-2-hover2.svg", alt="residuo fresco")
               .text.p-lg-3.p-4
                 .row.px-lg-3.mb-lg-2
-                  p.text-center.text-white Si el 
+                  p.text-center Si el 
                     strong residuo no ha sido previamente saneado
                     | , se favorecerá la diseminación de elementos patógenos propios de las producciones avícolas y que pueden estar presentes en las deyecciones de las aves, residuos de cascaras y otros residuos.
 
@@ -179,13 +179,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema7-2-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0
                   h4.mb-1 Política Nacional para la Gestión Integral Ambiental del Suelo
                   p.mb-0.text-small Para profundizar en el manejo de los recursos del suelo puede revisar el documento: Política Nacional para la gestión integral ambiental del suelo.
                 .col-sm-auto
@@ -361,13 +361,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema7-3-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0
                   h4.mb-1 Control ambiental del recurso hídrico
                   p.mb-0.text-small Para profundizar en el tema sobre el cuidado del recurso hídrico puede revisar el documento adjunto.
                 .col-sm-auto
@@ -464,13 +464,13 @@
 
     .row.justify-content-center.mb-5(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema7-4-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0
                   h4.mb-1 Recurso aire
                   p.mb-0.text-small Para profundizar el conocimiento sobre el recurso aire puede revisar la “Guía ambiental para el subsector avícola’’ de la Federación Nacional de Avicultores de Colombia – FENAVI.
                 .col-sm-auto
@@ -522,14 +522,26 @@
 
 
 
+    p.mb-5  La siguiente escala es sugerida para el registro de la emisión de olores en el autodiagnóstico:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .box.color-soft-lime.p-4
+          figure
+            img(src="@/assets/curso/t7-i1.svg", alt="Olores ofensivos")
 
+    p.mb-5  La persona que realiza el diagnóstico debe tomarse al menos tres minutos en los puntos de monitoreo fijados previamente, y si el olor es detectado, se debe valorar su extensión de acuerdo con la siguiente escala:
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .box.color-soft-lime.p-4
+          figure
+            img(src="@/assets/curso/t7-i2.svg", alt="Olores ofensivos")
 
 
 
 
 
     .row.justify-content-center
-      .col-lg-9
+      .col-lg-10
         .bloque-texto-a.color-primario2.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-8.mb-4.mb-lg-0
@@ -540,13 +552,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/olor.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0
                   h4.mb-1 Autodiagnóstico para el control de olores ofensivos
                   p.mb-0.text-small Para conocer más sobre el control de olores ofensivos en la industria avícola se puede consultar el “Manual de buenas prácticas disponibles para la mitigación de olores en la industria avícola” 
                 .col-sm-auto
