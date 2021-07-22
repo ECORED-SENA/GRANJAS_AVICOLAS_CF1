@@ -18,9 +18,65 @@
 
     // 2.1
     #t_2_1.titulo-segundo(data-aos="fade-right")
-      .h2 2.1. Protocolos de manejo ambiental
+      h2 2.1. Protocolos de manejo ambiental
 
     p.mb-4(data-aos="fade") Como parte del sistema de gestión de calidad a nivel ambiental se hace necesario definir protocolos que den pautas respecto a los procesos productivos, ya que la mejora de estos permite un control de la contaminación ambiental en las empresas del sector avícola y su impacto en la comunidad, las cuales podrá profundizar a continuación dando clic sobre cada huevo.
+    .tarjeta.tarjeta--azul.p-4.mb-5.bg-light-green
+      .stage-container
+        .row
+          .col-3
+            .chicken1
+              figure
+                img.w200(src="@/assets/curso/chicken-left.svg", alt="Gallo")  
+          .col-6
+            .grass
+              .egg
+              .egg
+              .egg
+              .egg
+          .col-3
+            .chicken2
+              figure
+                img.w200(src="@/assets/curso/chicken-right.svg", alt="Gallina")          
+        
+
+
+      SlyderA
+        .row.justify-content-center
+          .col-md-10
+            .outlined-card.py-5
+              .row.justify-content-center
+                .col-lg-8
+                  .p-3
+                    h3 Medidas de prevención
+                    p.mb-3  Son acciones encaminadas a evitar los impactos, efectos y riesgos ambientales, que pueden causar impactos negativos o daño a las personas, al medio ambiente y/o a la propiedad privada durante la ejecución de una actividad o proyecto.
+                    p.mb-5  Las medidas de prevención tienen por finalidad disminuir o evitar que aparezcan efectos desfavorables o indeseables a consecuencia de los riesgos ambientales, a la salud humana o en el medio ambiente, y que pudieran provocar una pérdida, disminución, detrimento o menoscabo significativo a uno o más elementos del mismo, a consecuencia de la ejecución de una actividad o proyecto. 
+        .row.justify-content-center
+          .col-md-10
+            .outlined-card.py-5
+              .row.justify-content-center
+                .col-lg-8
+                  .p-3
+                    h3  Medidas de control
+                    p.mb-5 Estas se consideran una serie de medidas destinadas a enfrentar con éxito los riesgos identificados en cada una de las etapas de una actividad o proyecto toda vez que ocurra un riesgo específico, minimizando los daños a los trabajadores, a comunidades vecinas, al medio ambiente circundante y a las instalaciones. 
+        .row.justify-content-center
+          .col-md-10
+            .outlined-card.py-5
+              .row.justify-content-center
+                .col-lg-8
+                  .p-3
+                    h3 Medidas de mitigación
+                    p.mb-5 Estas se entienden como la implementación o aplicación de cualquier política, estrategia, obra y/o acción tendiente a minimizar los impactos adversos que puedan presentarse en cierta actividad productiva o durante las etapas de ejecución de un proyecto y mejorar la calidad ambiental aprovechando las oportunidades existentes.
+        .row.justify-content-center
+          .col-md-10
+            .outlined-card.py-5
+              .row.justify-content-center
+                .col-lg-8
+                  .p-3
+                    h3 Medidas de compensación
+                    p.mb-5 Son las actividades dirigidas a retribuir a las comunidades, las regiones, localidades y entorno natural, por los impactos o efectos negativos generados por un proyecto, que no puedan ser evitados, corregidos, mitigados o sustituidos.
+        
+
 
 
 
@@ -71,4 +127,7 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="sass" scoped>
+.w200{max-width: 200px}
+.w270{max-width: 270px}
+</style>

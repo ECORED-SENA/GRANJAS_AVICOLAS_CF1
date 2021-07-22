@@ -49,7 +49,7 @@
     #t_6_2.titulo-segundo(data-aos="fade-right")
       .h2 6.2. Regulaciones, entidades certificadoras y requerimientos para ingresar a los mercados internacionales
 
-    .row.mb-4
+    .row.mb-5
       .col-lg-7(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-4
           p El impacto ambiental de la Huella de Carbono se controla a través de unas mediciones en las emisiones de gases que son lanzados a la atmósfera durante todo el ciclo de vida. Hay normativas internacionales como 
@@ -61,8 +61,29 @@
         figure
           img(src="@/assets/curso/tema6-2-imagen1.png", alt="Regulaciones, entidades certificadoras y requerimientos para ingresar a los mercados internacionales")
 
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .bg-greenCard
+          .row.justify-content-center
+            .col-lg-8
 
+              ImagenInfografica.color-secundario.customInfo
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/t6-i1.svg', alt='Mapa de Colombia')
 
+                .tarjeta.color-acento-botones.p-3(x="47%" y="37%")
+                  .wrapbox
+                    .h5.mb-2 La Resolución 1447 de 2018
+                    p Por medio de la cual se establece el control, prevención y mitigación de la emisión de gases de invernadero.
+                .tarjeta.color-acento-botones.p-3(x="40%" y="52%")
+                  .wrapbox
+                    .h5.mb-2 El CONPES 3700 de 2011
+                    p Por el cual se establecen medidas para tratar con el cambio climático desde diferentes sectores.
+                .tarjeta.color-acento-botones.p-3(x="56%" y="60%")
+                  .wrapbox
+                    .h5.mb-2 Ley 1753 de 2015
+                    p Por la cual se establece la creación del registro de emisión de gases efecto invernadero.
 
 
 

@@ -42,7 +42,7 @@
 
     p.mb-4(data-aos="fade") Las medidas de mitigación ambiental tienen por finalidad evitar o disminuir los efectos adversos de un proyecto o actividad, cualquiera sea su fase de ejecución. Estas se expresarán en un plan, el cual deberá considerar, por lo menos, una de las siguientes medidas:
 
-    PasosA.color-primario.pasos-custom.mb-4(tipo="n")
+    PasosA.color-primario.pasos-custom(tipo="n")
       .row
         .col-md-11.mb-4.mb-md-0
           p
@@ -59,7 +59,7 @@
             strong.etiqueta Las medidas de reparación y/o restauración 
             | tienen por finalidad reponer uno o más de los componentes o elementos del medio ambiente a una calidad similar a la que tenían con anterioridad al daño causado o, en caso de no ser ello posible, restablecer sus propiedades básicas. Dichas medidas se expresarán en un Plan de Medidas de Reparación y/o Restauración.
       .row
-        .col-md-11.mb-4.mb-md-0
+        .col-md-11.mb-5.mb-md-0
           p
             strong.etiqueta Las medidas de compensación ambiental 
             | tienen por finalidad producir o generar un efecto positivo alternativo y equivalente a un efecto adverso identificado. Dichas medidas se expresarán en un Plan de Medidas de Compensación, el que incluirá el reemplazo o sustitución de los recursos naturales o elementos del medio ambiente afectados, por otros de similares características, clase, naturaleza y calidad.
@@ -68,26 +68,25 @@
 
     p(data-aos="fade") Por otro lado, las medidas de mitigación están hechas para disminuir y soportar los efectos e impactos en el ambiente productos de la actividad avícola y todo lo que ella conlleva, es decir, el uso del suelo, el agua, el aire, ya sea en la elaboración o adecuación de la infraestructura, el transporte, la generación de residuos y disposición de los mismos, y como tal el manejo de la producción por parte de administrativos, operarios, profesionales y demás personal que interactúa en el proceso.
 
-    p.mb-4(data-aos="fade") Si la aplicación y evaluación del impacto ambiental del proyecto o actividad se deduce en eventuales situaciones de riesgo al medio ambiente, el titular del proyecto o actividad deberá proponer medidas de prevención de riesgos y de control de accidentes, las cuales se mencionan en la siguiente figura:
+    p.mb-5(data-aos="fade") Si la aplicación y evaluación del impacto ambiental del proyecto o actividad se deduce en eventuales situaciones de riesgo al medio ambiente, el titular del proyecto o actividad deberá proponer medidas de prevención de riesgos y de control de accidentes, las cuales se mencionan en la siguiente figura:
 
-    .row.justify-content-center
-      .col-lg-8
-        .row
-          .col-lg-6.tarjeta.color-primario.p-4.mx-lg-2.mb-4
-            .row.justify-content-center.mb-4
-              .col-6
-                figure
-                  img.p-2.px-lg-2(src='@/assets/curso/tema7-1-tarjeta1.svg', alt='Medidas de prevención de riesgo')
-            h4.text-center Medidas de prevención de riesgo
-            p.text-center Tienen por finalidad evitar que aparezcan efectos desfavorables en la población o en el medio ambiente. 
+    .row.justify-content-center.mb-5.text-center
+      .col-lg-4
+        .tarjeta.color-primario.p-4.h-100.text-noir
+          figure
+            img.h150.mb-5(src='@/assets/curso/tema7-1-tarjeta1.svg', alt='Medidas de prevención de riesgo')
+          h4 Medidas de prevención de riesgo
+          p Tienen por finalidad evitar que aparezcan efectos desfavorables en la población o en el medio ambiente.         
 
-          .col-lg-6.tarjeta.color-acento-botones.p-4.mx-lg-2.mb-4
-            .row.justify-content-center.mb-4
-              .col-6
-                figure
-                  img.p-2.px-lg-2(src='@/assets/curso/tema7-1-tarjeta2.svg', alt='Medidas de control de accidentes')
-            h4.text-center.text-white Medidas de control de accidentes
-            p.text-center.text-white Tienen por finalidad permitir la intervención eficaz en los sucesos que alteren el desarrollo normal de un proyecto o actividad, en tanto puedan causar daños a la vida, a la salud humana o al medio ambiente.
+      .col-lg-4
+        .tarjeta.color-acento-botones.p-4.h-100
+          figure
+            img.h150.mb-5(src='@/assets/curso/tema7-1-tarjeta2.svg', alt='Medidas de control de accidentes')
+          h4 Medidas de control de accidentes
+          p Tienen por finalidad permitir la intervención eficaz en los sucesos que alteren el desarrollo normal de un proyecto o actividad, en tanto puedan causar daños a la vida, a la salud humana o al medio ambiente.
+
+
+
 
     p(data-aos="fade") Desde este punto de vista está considerado el tema de salud y seguridad en el trabajo, pero además el de las poblaciones aledañas a las producciones, las cuales pueden ser impactadas por las actividades de producción en las granjas avícolas, demostrando que no sólo es importante el factor ambiental en terreno y recursos aprovechables, sino también en las poblaciones, ya sean estas internas o externas.
 
@@ -629,6 +628,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.h150
+  max-height: 150px
 .nav-holder2
   display: inline-block
   margin: 10px 5px
