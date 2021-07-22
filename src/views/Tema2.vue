@@ -93,13 +93,13 @@
 
     .row.justify-content-center(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema2-2-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 Guía ambiental para el subsector avícola
                   p.mb-0.text-small Para profundizar en el tema sobre el manejo ambiental puede revisar el siguiente documento. 
                 .col-sm-auto

@@ -20,7 +20,7 @@
     #t_1_1.titulo-segundo(data-aos="fade-right")
       .h2 1.1. Normatividad, seguridad y salud en el trabajo
 
-    .row.mb-4
+    .row.mb-5
       .col-lg-7(data-aos="fade-right")
         .bloque-texto-b.bloq2.color-secundario
           .bloque-texto-b__texto
@@ -31,7 +31,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-8
-        .cajon.color-secundario.p-4
+        .cajon.color-primario.p-5
           .h4 Normatividad, seguridad y salud en el trabajo avícola
           P Las empresas de la industria del sector avícola, como cualquier otra en Colombia deben cumplir con reglamentaciones de la Organización Internacional del trabajo a nivel general y del Ministerio de Trabajo y Seguridad social, con el fin de proteger los derechos de los empleados.  
 
@@ -166,13 +166,13 @@
 
     .row.justify-content-center(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema1-3-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0
                   h4.mb-1 Prevención de riesgos laborales en granjas avícolas
                   p.mb-0.text-small Para ampliar la información sobre los principales riesgos laborales puede consultar el siguiente documento “Prevención de Riesgos Laborales en Granjas Avícolas”. 
                 .col-sm-auto

@@ -22,13 +22,13 @@
 
     .row.justify-content-center(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema4-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 Sistema de Gestión Ambiental
                   p.mb-0.text-small Para más información puede consultar la norma ISO 14001 del 2015 en el siguiente documento.
                 .col-sm-auto
@@ -71,13 +71,13 @@
 
     .row.justify-content-center(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema4-3-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 3R
                   p.mb-0.text-small Para profundizar sus conocimientos acerca del tema sobre reducir, reutilizar y reciclar, puede revisar el video llamado “3R de la Ecología”.
                 .col-sm-auto
@@ -164,13 +164,13 @@
 
     .row.justify-content-center(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema4-4-ico.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 Clasificación de residuos sólidos.
                   p.mb-0.text-small Para ampliar conocimientos sobre la nomenclatura para la clasificación por colores puede ver el video “Clasificación de los residuos sólidos 2019¨.
                 .col-sm-auto

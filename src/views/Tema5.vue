@@ -15,13 +15,13 @@
 
     .row.justify-content-center.mb-5(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/egg.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 Planes de gestión integral de residuos sólidos.
                   p.mb-0.text-small Para ampliar su conocimiento acerca del plan de gestión integral de residuos sólidos puede acceder al siguiente video.
                 .col-sm-auto
@@ -231,13 +231,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema5-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 Manejo de residuos en granjas avícolas
                   p.mb-0.text-small Para conocer más acerca del manejo de residuos sólidos en una granja puede ver el video “Manejo y disposición de residuos sólidos en granjas avícolas” .
                 .col-sm-auto
@@ -284,7 +284,7 @@
 
     p.mb-4(data-aos="fade") En la siguiente figura se especifican los pasos a seguir para hacer una correcta sanitización de la gallinaza o pollinaza.      
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-12
         PasosA.color-primario.pasos-custom.mb-4(tipo="n")
           .row
             .col-md-11.mb-4.mb-md-0
@@ -338,26 +338,26 @@
             .col-md-2.col-4.mb-4.mb-md-0.mt-3
               img.px-lg-3(src="@/assets/curso/tema5-2-ico-1.svg", alt="Etapa mesofílica")
             .col-md-8.mt-3
-              h3.text-white Etapa mesofílica
-              p.text-white La mezcla alcanza temperaturas de hasta 40°C.
+              h3 Etapa mesofílica
+              p La mezcla alcanza temperaturas de hasta 40°C.
           .row.justify-content-center(numero="2" titulo="Etapa termofílica o de higienización")
             .col-md-2.col-4.mb-4.mb-md-0.mt-3
               img.px-lg-1(src="@/assets/curso/tema5-2-ico-2.svg", alt="Etapa termofílica o de higienización")
             .col-md-8.mt-3
-              h3.text-white Etapa termofílica o de higienización
-              p.text-white La mezcla alcanza temperaturas que superan los 60°C, por lo cual se produce la muerte de los microorganismos patógenos (causantes de enfermedades).
+              h3 Etapa termofílica o de higienización
+              p La mezcla alcanza temperaturas que superan los 60°C, por lo cual se produce la muerte de los microorganismos patógenos (causantes de enfermedades).
           .row.justify-content-center(numero="3" titulo="Etapa de enfriamiento o mesófila II")
             .col-md-2.col-4.mb-4.mb-md-0.mt-3
               img.px-lg-2(src="@/assets/curso/tema5-2-ico-3.svg", alt="Etapa de enfriamiento o mesófila II")
             .col-md-8.mt-3
-              h3.text-white Etapa de enfriamiento o mesófila II
-              p.text-white  La temperatura comienza a descender hasta igualar la ambiental.
+              h3 Etapa de enfriamiento o mesófila II
+              p  La temperatura comienza a descender hasta igualar la ambiental.
           .row.justify-content-center(numero="4" titulo="Etapa de maduración")
             .col-md-2.col-4.mb-4.mb-md-0.mt-3
               img.px-lg-2(src="@/assets/curso/tema5-2-ico-4.svg", alt="Etapa de maduración")
             .col-md-8.mt-3
-              h3.text-white Etapa de maduración
-              p.text-white La mezcla se encuentra estable.
+              h3 Etapa de maduración
+              p La mezcla se encuentra estable.
           
     p(data-aos="fade") Para compostar, se debe contar con un espacio con un área mínima requerida del 5% de la capacidad de encasetamiento y un área adicional para manejo de contingencias.
     p.mb-4(data-aos="fade") Existen dos métodos generales de compostaje aplicables a la mortalidad:
@@ -479,31 +479,31 @@
       .col-lg-8
         .row.justify-content-center.align-items-center.bg-image-1.py-lg-5
           .col-lg-2.col-3.numero-color
-            h2.text-center.text-white 1
+            h2.text-center 1
           .col-lg-9
             p Distribuir una capa de 30 cm de gallinaza o pollinaza uniformemente mezclada con material vegetal y abrir la capa de aves muertas con 15 cm de cama pollo húmeda. A partir de este momento se recomienda el uso de cama húmeda para no tener que humedecer las aves.
 
         .row.justify-content-center.align-items-center.bg-image-2.py-lg-5
           .col-lg-2.col-3.numero-color
-            h2.text-center.text-white 2
+            h2.text-center 2
           .col-lg-9
             p Abrir el ave en la zona abdominal e introducir sus patas. Depositar una capa de aves muertas, disponiendo cada cadáver en forma contigua, intercalando cabeza y cola para optimizar el espacio, pero sin superposición. Esta capa debe estar a 15 cm respecto de los laterales.
 
         .row.justify-content-center.align-items-center.bg-image-3.py-lg-5
           .col-lg-2.col-3.numero-color
-            h2.text-center.text-white 3
+            h2.text-center 3
           .col-lg-9
             p Humedecer los cadáveres rociándolos hasta alcanzar un 60% teniendo cuidado de no excederse y encharcar el material. También, el uso de cama húmeda se recomienda para no tener que humedecer las aves.
         
         .row.justify-content-center.align-items-center.bg-image-2.py-lg-5
           .col-lg-2.col-3.numero-color
-            h2.text-center.text-white 4
+            h2.text-center 4
           .col-lg-9
             p.texto-largo Cubrir las aves con gallinaza o pollinaza, iniciando por el sellamiento del espacio entre ellas. Continuar así hasta una altura de 120 a 150 cm. Aunque la altura del cajón lo permitiera no conviene superar esta altura porque el peso del material comprime la masa inferior, favoreciendo la anaerobiosis (falta de oxígeno) y la consiguiente producción de olores desagradables y atracción de mosca.
 
         .row.justify-content-center.align-items-center.bg-image-final.py-lg-5
           .col-lg-2.col-3.numero-color
-            h2.text-center.text-white 5
+            h2.text-center 5
           .col-lg-9
             p Una vez se complete la última capa de disposición de mortalidad se deben cubrir las aves completamente.  El proceso de llenado de los cajones debe durar 20 días, a partir de los cuales, se contarán 30 adicionales para realizar el volteo del material.
 
@@ -570,13 +570,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema5-2-ico1.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 El compostaje
                   p.mb-0.text-small Para mayor comprensión sobre el compostaje dentro de las prácticas ambientales y sanitarias en la labor avícola, puede ver el video llamado “Compostaje de mortalidad”
                 .col-sm-auto
@@ -588,13 +588,13 @@
 
     .row.justify-content-center.mb-4(data-aos="fade") 
       .col-lg-10
-        .tarjeta.color-gradiente.py-lg-4.px-lg-5.p-3
+        .tarjeta.color-primario.py-lg-4.px-lg-5.p-3
           .row.justify-content-center.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/tema5-2-ico2.svg")
             .col
               .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0.texto-blanco
+                .col.mb-3.mb-sm-0.color-primario
                   h4.mb-1 Guía ambiental para el subsector avícola
                   p.mb-0.text-small Para profundizar en las pautas del sector avícola puede leer “Guía ambiental para el subsector avícola”
                 .col-sm-auto
