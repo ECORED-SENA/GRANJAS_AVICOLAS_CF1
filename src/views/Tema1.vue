@@ -28,11 +28,83 @@
       .col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1-1-imagen1.png", alt="Normatividad, seguridad y salud en el trabajo")  
-  
-
-
-
     
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .cajon.color-secundario.p-4
+          .h4 Normatividad, seguridad y salud en el trabajo avícola
+          P Las empresas de la industria del sector avícola, como cualquier otra en Colombia deben cumplir con reglamentaciones de la Organización Internacional del trabajo a nivel general y del Ministerio de Trabajo y Seguridad social, con el fin de proteger los derechos de los empleados.  
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/t1-i2.svg', alt='Infografia de normatividad')
+
+          .tarjeta.color-acento-botones.p-3(x="44%" y="23.5%")
+            .h5.mb-2 Ley 1010 2006
+            p En donde se adoptan medidas para prevenir, corregir y sancionar el acoso laboral y otros dentro de las relaciones laborales.
+
+          .tarjeta.color-acento-botones.p-3(x="56.5%" y="23.5%")
+            .h5.mb-2 Código Sustantivo del Trabajo
+            p En el cual se estipula toda la normatividad a nivel nacional para los empleados en general.
+
+          .tarjeta.color-acento-botones.p-3(x="67%" y="29%")
+            .h5.mb-2 1951
+            p Regulación de relaciones laborales.
+
+          .tarjeta.color-acento-botones.p-3(x="74.5%" y="38%")
+            .h5.mb-2 Resolución 1401 2007
+            p Por la cual se reglamenta la investigación de incidentes y accidentes de trabajo.
+
+          .tarjeta.color-acento-botones.p-3(x="77%" y="50%")
+            .h5.mb-2 Resolución 2346 2007
+            p Por la cual se regula la práctica de evaluaciones médicas ocupacionales y el manejo y contenido de las historias clínicas ocupacionales.
+
+          .tarjeta.color-acento-botones.p-3(x="74.5%" y="61.5%")
+            .h5.mb-2 Resolución 2646 2008
+            p Por la cual se establecen disposiciones y se definen responsabilidades para la identificación, evaluación, prevención, intervención y monitoreo permanente de la exposición a factores de riesgo psicosocial en el trabajo y para la determinación del origen de estas.
+
+          .tarjeta.color-acento-botones.p-3(x="67%" y="72%")
+            .h5.mb-2 Resolución 00000652 2012 
+            p Por la cual se establece la conformación y funcionamiento del Comité de Convivencia Laboral en entidades públicas y empresas privadas y se dan otras disposiciones.   
+          
+          .tarjeta.color-acento-botones.p-3(x="56.5%" y="77%")
+            .h5.mb-2 Resolución 0312 2019
+            p Por la cual se definen los estándares mínimos del Sistema de Gestión de la Seguridad y Salud en el Trabajo, SG-SST.
+          
+          .tarjeta.color-acento-botones.p-3(x="44%" y="77%")
+            .h5.mb-2 Decreto 1072 2015 Decreto Único Reglamentario del Sector Trabajo
+            p “El Ministerio de Trabajo fomenta políticas y estrategias para la generación de empleo estable, la formalización laboral, la protección a los desempleados, la formación de los trabajadores, la movilidad laboral, las pensiones y otras prestaciones”.
+
+          .tarjeta.color-acento-botones.p-3(x="33%" y="71.5%")
+            .h5.mb-2 Resolución 1409 2012
+            p Por la cual se establece el Reglamento de Seguridad para protección contra caídas en trabajo en alturas.    
+
+          .tarjeta.color-acento-botones.p-3(x="23%" y="50%")
+            .h5.mb-2 Resolución 1792 1990 
+            p Por la cual se adoptan valores límites permisibles para la exposición ocupacional al ruido.
+
+
+          .tarjeta.color-acento-botones.p-3(x="26%" y="61.5%")
+            .h5.mb-2 Decreto-Ley 1295 1994
+            p Por el cual se determina la organización y administración del Sistema General de Riesgos Profesionales.
+            
+          .tarjeta.color-acento-botones.p-3(x="26%" y="38%")
+            .h5.mb-2 Resolución 2013 1986
+            p Por la cual se reglamenta la organización y funcionamiento de los Comités de Medicina, Higiene y Seguridad Industrial en los lugares de trabajo.
+
+          .tarjeta.color-acento-botones.p-3(x="33%" y="29%")
+            .h5.mb-2 Resolución 2400 1979
+            p Por la cual se establecen algunas disposiciones sobre vivienda, higiene y seguridad en los establecimientos de trabajo.   
+
+
+
+
+
+
+            
     Separador
 
     
@@ -116,7 +188,7 @@
       .h2 1.4. Dotación de personal y elementos de protección
 
 
-    .row.mb-4
+    .row.mb-4.mb-5
       .col-lg-7(data-aos="fade-right")
         .bloque-texto-b.bloq2.color-secundario
           .bloque-texto-b__texto
@@ -126,8 +198,44 @@
         figure
           img(src="@/assets/curso/tema1-4-imagen1.png", alt="Dotación de personal y elementos de protección")
 
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        h3.titulo-tercero.text-center  Elementos básicos de protección personal en la industria avícola
+        ImagenInfografica.color-secundario.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/t1-i3.svg', alt='Infografia elementos básicos de protección')
 
+          .tarjeta.color-acento-botones.p-3(x="50%" y="29%")
+            .h5.mb-2 Casco
+            p Son elementos que permiten proteger la parte de la cabeza del personal para evitar golpes por caídas de objetos, resbalones, contacto con cables o líneas eléctricas.         
 
+          .tarjeta.color-acento-botones.p-3(x="67.5%" y="37%")
+            .h5.mb-2 Gafas de seguridad 
+            p Es un elemento que protege los ojos de la proyección de partículas sólidas o líquidas en el manejo de sustancias, químicas, biológicas o corrosivas, están elaboradas en policarbonato, con antiempañante. 
+
+          .tarjeta.color-acento-botones.p-3(x="73%" y="56.3%")
+            .h5.mb-2  Respirador con protección para material particulado 
+            p Este respirador con filtro mecánico para partículas de menos de 10 micras, ayuda en el manejo de los galpones para el polvo, manejo de la cama y alimento de las aves. El respirador se conoce comúnmente como el “N-95” cubre la cara y filtra el aire, suelen ser desechables.  
+
+          .tarjeta.color-acento-botones.p-3(x="60.5%" y="73%")
+            .h5.mb-2 Guantes de hule, caucho o plástico
+            p Son diseñados para la protección de las manos, en las diferentes labores que se desempeñan dentro de los galpones, tales como limpieza y desinfección. Además, reducen el riesgo de contaminación al evitar el contacto directo con la piel.  
+
+          .tarjeta.color-acento-botones.p-3(x="39.5%" y="73%")
+            .h5.mb-2  Guantes de carnaza 
+            p Son elementos diseñados para proteger de abrasiones, cortes, rozaduras o golpes, además de mejorar el agarre; en las granjas se utilizan para realizar diversas labores como el manejo de los animales y la adecuación de los galpones. 
+
+          .tarjeta.color-acento-botones.p-3(x="27%" y="56.3%")
+            .h5.mb-2  Botas de caucho de caña alta
+            p Las botas deben ser de caña alta, para facilitar los trabajos en condiciones húmedas como el lavado y desinfección del galpón, además que permitan la rápida y efectiva limpieza y desinfección de las mismas, deben tener suelas antideslizantes para evitar caídas y accidentes.  
+
+          .tarjeta.color-acento-botones.p-3(x="32%" y="37%")
+            .h5.mb-2 Overol antifluidos, lavable e impermeable
+            p Este elemento está diseñado para proteger el cuerpo del operario de diferentes sustancias ya sean químicas, biológicas o físicas, así como de material sólido. 
+
+        
+            
 
   
 
