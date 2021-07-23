@@ -117,6 +117,8 @@
                 span Descargar
                 i.fas.fa-file-download
 
+    p.mb-4(data-aos="fade") Clasificación de los residuos sólidos en el sector avícola.           
+
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Residuos Orgánicos")
         .row.justify-content-center
@@ -133,10 +135,10 @@
                     | Gallinaza.
                   li.mb-0 
                     i.fas.fa-chevron-right
-                    | Aves Muertas (mortalidad).
+                    | Aves muertas (mortalidad).
                   li.mb-0  
                     i.fas.fa-chevron-right
-                    | Cáscara de Huevo.
+                    | Cáscara de huevo.
                   li.mb-0  
                     i.fas.fa-chevron-right
                     | Residuos de limpieza en galpón o en área de guacales. 
@@ -156,10 +158,10 @@
                 ul.lista-ul--color.color-naranja.mb-0
                   li.mb-0 
                     i.fas.fa-chevron-right
-                    | Bandeja de Cartón.
+                    | Bandeja de cartón.
                   li.mb-0 
                     i.fas.fa-chevron-right
-                    | Empaque de Polipropileno (Lonas de alimento, aserrín o piedrilla).
+                    | Empaque de polipropileno (lonas de alimento, aserrín o piedrilla).
                   li.mb-0  
                     i.fas.fa-chevron-right
                     | Implementos de aseo desgastados (traperos, escobas, canecas, cepillos).
@@ -171,7 +173,7 @@
                     | Bolsas plásticas.
                   li.mb-0 
                     i.fas.fa-chevron-right
-                    | Cajas de Cartón.
+                    | Cajas de cartón.
                   li.mb-0 
                     i.fas.fa-chevron-right
                     | Papel industrial (oficina).
@@ -194,7 +196,7 @@
                 ul.lista-ul--color.color-naranja.mb-0
                   li.mb-0 
                     i.fas.fa-chevron-right
-                    | Envases de desinfectantes, Detergentes y plaguicidas (plásticos).
+                    | Envases de desinfectantes, detergentes y plaguicidas (plásticos).
                   li.mb-0 
                     i.fas.fa-chevron-right
                     | Envases de medicamentos (plástico y vidrio).
@@ -270,7 +272,7 @@
       .col-lg-10
         figure.mb-5
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/bAIiOGv5GyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row
       .col-lg-7.mb-5(data-aos="fade-right")
@@ -310,7 +312,7 @@
             .col-md-11.mb-4.mb-md-0
               p 
                 strong Enfriamiento de retiro del material 
-              p Tras el periodo de reposo, se extienden las pilas para que se enfríen y se empacan para sacarlas del galpón.         
+              p Tras el período de reposo, se extienden las pilas para que se enfríen y se empacan para sacarlas del galpón.         
 
     Separador
 
@@ -453,7 +455,7 @@
             img.mb-3(src='@/assets/curso/tema5-2-pestanas-img8.jpg', alt='La compostera: cajones')
           .col-lg-5
             h3 Cajones
-            p Los Cajones deben medir 1,5 m de largo X 1,5 m de ancho y 1,6 m de altura.  
+            p Los cajones deben medir 1,5 m de largo X 1,5 m de ancho y 1,6 m de altura.  
       .tarjeta.tarjeta--gris.p-4(titulo="La compostera: funcionalidad")
         .row.justify-content-center
           .col-lg-6
