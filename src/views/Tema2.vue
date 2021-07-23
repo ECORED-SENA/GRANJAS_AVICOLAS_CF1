@@ -24,17 +24,17 @@
     .tarjeta.tarjeta--azul.p-4.mb-5.bg-light-green
       .stage-container
         .row
-          .col-3
+          .col-3.gallo
             .chicken1
               figure
                 img.w200(src="@/assets/curso/chicken-left.svg", alt="Gallo")  
-          .col-6
+          .col-6.huevitos
             .grass
               .egg
               .egg
               .egg
               .egg
-          .col-3
+          .col-3.gallina
             .chicken2
               figure
                 img.w200(src="@/assets/curso/chicken-right.svg", alt="Gallina")          

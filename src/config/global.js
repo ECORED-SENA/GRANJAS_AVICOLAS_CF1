@@ -574,7 +574,7 @@ export default {
       },
       {
         nombre: 'Lady Johanna Cruz Sarmiento',
-        cargo: 'Experto temático',
+        cargo: 'Experta temática',
         centro: 'Centro Agropecuario La Granja <br>Regional Tolima',
       },
       {
